@@ -1,4 +1,4 @@
-![cabecera_48.png](/images/header.png)
+![cabecera_48.png](images/header.png)
 # Documentacion Git
 ________
 
@@ -38,11 +38,11 @@ Hay tres maneras de poder instalar Git en Mac
  [SourceForge](http://sourceforge.net/projects/git-osx-installer/)
  
 - Puedes instalarlo a traves de [MacPorts](http://www.macports.org) con  
- 
-   ~~~
- $ sudo port install git-core +svn +doc +bash_completion +gitweb
-  ~~~
-  
+
+    ~~~
+    $ sudo port install git-core +svn +doc +bash_completion +gitweb
+    ~~~
+
 - Otra alternativa es con [Homebrew](http://brew.sh/) con
     ~~~
     $ brew install git
