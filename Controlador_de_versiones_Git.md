@@ -81,7 +81,7 @@ Puedes obtener un proyecto de Git de dos maneras. La Primera toma un proyecto o 
 
 - **Iniciar un repositorio existente**
 
- Se debe ir al directorio del proyecto y escribir
+    Se debe ir al directorio del proyecto y escribir
 
     ~~~
     git init
@@ -89,14 +89,14 @@ Puedes obtener un proyecto de Git de dos maneras. La Primera toma un proyecto o 
 
    ![init](images/iniciarExistente.jpg)
 
-    Con el comando 'git init' sobre una carpeta nueva o sobre una ya existente, Git crea la carpeta auxiliar '.git'; la carpeta donde se ubica prácticamente todo lo almacenado y manipulado por Git. Si deseas hacer una copia de seguridad de tu repositorio, con tan solo copiar esta carpeta a cualquier otro lugar ya tienes tu copia completa.Tiene un aspecto como este:
-    
+   Con el comando 'git init' sobre una carpeta nueva o sobre una ya existente, Git crea la carpeta auxiliar '.git'; la carpeta donde se ubica prácticamente todo lo almacenado y manipulado por Git. Si deseas hacer una copia de seguridad de tu repositorio, con tan solo copiar esta carpeta a cualquier otro lugar ya tienes tu copia completa.Tiene un aspecto como este
+
    ![carpeta](images/carpetaGitinit.jpg)
-   
+
 
 - **Clonar un repositorio existente**
 
- Para obtener una copia de un repositorio Git existente, un proyecto en el que te gustaría contribuir, el comando que necesitas es
+   Para obtener una copia de un repositorio Git existente, un proyecto en el que     te gustaría contribuir, el comando que necesitas es
 
     ~~~
     git clone
