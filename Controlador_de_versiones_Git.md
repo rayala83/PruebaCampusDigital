@@ -20,14 +20,14 @@ La Instalacion puede ser de varias maneras pero las mas comunes son desde códig
 En general se puede hacer a travez de la herrmienta basica de gestion de paquetes. 
 
    - Si estas en Fedora puedes usar el yum:
-~~~ 
-   $ yum install git-core
-~~~
+    ~~~ 
+    $ yum install git-core
+    ~~~
 
    - Si estas en Ubuntu puedes prueba con apt-get:
-~~~
-   $ apt-get install git
-~~~
+    ~~~
+    $ apt-get install git
+    ~~~
 
 
 ##### **Instalacion en Mac**
