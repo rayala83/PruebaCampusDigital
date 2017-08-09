@@ -36,15 +36,13 @@ Hay tres maneras de poder instalar Git en Mac
 
 - Usar el instalador grafico de Git, se puede descargar desde
  [SourceForge](http://sourceforge.net/projects/git-osx-installer/)
- 
-- Puedes instalarlo a traves de [MacPorts](http://www.macports.org) con
 
+- Puedes instalarlo a traves de [MacPorts](http://www.macports.org) con
     ~~~
     $ sudo port install git-core +svn +doc +bash_completion +gitweb
     ~~~
 
 - Otra alternativa es con [Homebrew](http://brew.sh/) con
-
     ~~~
     $ brew install git
     ~~~
