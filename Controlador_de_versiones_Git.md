@@ -118,13 +118,28 @@ Si añadimos un nuevo archivo al proyecto, y ejecutamos git status, se veran los
 
 **Seguimiento de nuevos archivos**
 
-Para empezar el seguimiento de un nuevo archivo se usa el comando git add. Iniciaremos el seguimiento de los archivos ejecutando esto:
+Para empezar el seguimiento de un nuevo archivo se usa el comando git add. Iniciaremos el seguimiento de los archivos ejecutando esto.
 
 ~~~
 git add
 ~~~
 
+   ![add](images/add.png)
+
+Si vuelvemos a ejecutar el comando git status, veremos que los archivos están ahora bajo seguimiento y preparado.
+
+   ![add](images/comprobarAdd.png)
+
+
 **Confirmando tus cambios**
+
+Ahora que ya estan en seguimiento los archivos, se pueden confirmar los cambios. Cualquier cosa que todavía esté sin preparar (cualquier archivo que se haya creado o modificado), y sobre el que no hayas ejecutado git add desde su última edición, no se incluirá en esta confirmación solo se mantendrán como modificados en tu disco.
+
+~~~
+git commit -m "mensaje sobre los cambios  realizados"
+~~~
+
+   ![commit](images/commit.png)
 
 - **Ramificaciones en Git** 
     1. 
