@@ -110,7 +110,7 @@ Puedes obtener un proyecto de Git de dos maneras. La Primera toma un proyecto o 
 
 Para determinar qué archivos están y en qué estado, utilizaremos el comando git status. Si ejecutas este comando justo después de clonar un  repositorio, deberías ver algo así.
 
-   ![estado]()
+   ![estado](images/status.png)
     
 Si añadimos un nuevo archivo al proyecto, y ejecutamos git status, se veran los archivos sin seguimiento asi.
 
