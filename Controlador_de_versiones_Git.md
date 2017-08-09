@@ -19,12 +19,12 @@ La Instalacion puede ser de varias maneras pero las mas comunes son desde códig
 
 En general se puede hacer a travez de la herrmienta basica de gestion de paquetes. 
 
-   - Si estas en Fedora puedes usar el yum:
+- Si estas en Fedora puedes usar el yum:
     ~~~ 
     $ yum install git-core
     ~~~
 
-   - Si estas en Ubuntu puedes prueba con apt-get:
+- Si estas en Ubuntu puedes prueba con apt-get:
     ~~~
     $ apt-get install git
     ~~~
@@ -80,31 +80,31 @@ Git trae una herramienta llamada git config que te permite obtener y establecer 
 Puedes obtener un proyecto de Git de dos maneras. La Primera toma un proyecto o directorio existente y lo importa en Git. La segunda clona un repositorio Git existente.     
 
 - **Iniciar un repositorio existente**
-   
- Se debe ir al directorio del proyecto y escribir 
+
+ Se debe ir al directorio del proyecto y escribir
 
     ~~~
     git init
     ~~~
 
-    ![init](images/iniciarExistente.jpg)
+   ![init](images/iniciarExistente.jpg)
 
     Con el comando 'git init' sobre una carpeta nueva o sobre una ya existente, Git crea la carpeta auxiliar '.git'; la carpeta donde se ubica prácticamente todo lo almacenado y manipulado por Git. Si deseas hacer una copia de seguridad de tu repositorio, con tan solo copiar esta carpeta a cualquier otro lugar ya tienes tu copia completa.Tiene un aspecto como este:
     
-    ![carpeta](images/carpetaGitinit.jpg)
+   ![carpeta](images/carpetaGitinit.jpg)
    
 
 - **Clonar un repositorio existente**
-  
+
  Para obtener una copia de un repositorio Git existente, un proyecto en el que te gustaría contribuir, el comando que necesitas es
 
     ~~~
     git clone
     ~~~
 
-    ![clonar](images/clonargit.jpg)
+   ![clonar](images/clonargit.jpg)
     
-    ![carpeta](images/carpetaClonada.jpg)
+   ![carpeta](images/carpetaClonada.jpg)
 
 **Comprobando el estado de tus archivos**
 
