@@ -1,4 +1,4 @@
-![cabecera_48.png](../images/header.png)
+![cabecera_48.png](/images/header.png)
 # Documentacion Git
 ________
 
