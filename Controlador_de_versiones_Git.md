@@ -57,6 +57,10 @@ Para la instalacion se debe descargar el archivo exe del instalador desde [Git](
 ~~~
 3. Configuraacion de Git
 ~~~
+Git creara en tu sistema las siguientes carpetas que te permitran trabajar, lo que se documenta acontinuacion se asocia a la consola de git el Git CMD.
+
+![carpetas](images/carpetaGit.png)
+
 Git trae una herramienta llamada git config que te permite obtener y establecer variables de configuración, que controlan el aspecto y funcionamiento de Git.
 
 **Identificacion**
@@ -64,8 +68,8 @@ Git trae una herramienta llamada git config que te permite obtener y establecer 
 - Lo primero que se hace cuando instalas Git es establecer tu nombre de usuario y dirección de correo electrónico. Esto es importante porque las confirmaciones de cambios (commits) en Git usan esta información.
 
     ~~~
-    $ git config --global user.name "TuUsuario"
-    $ git config --global user.email tuUsuario@example.com
+    git config --global user.name "TuUsuario"
+    git config --global user.email tuUsuario@example.com
     ~~~
 
 ##### **Fundamentos de Git** 
@@ -80,7 +84,7 @@ Puedes obtener un proyecto de Git de dos maneras. La Primera toma un proyecto o 
  Se debe ir al directorio del proyecto y escribir 
 
     ~~~
-        $ git init
+    git init
     ~~~
 
     ![init](images/iniciarExistente.jpg)
@@ -90,21 +94,37 @@ Puedes obtener un proyecto de Git de dos maneras. La Primera toma un proyecto o 
    ![carpeta](images/carpetaGitinit.jpg)
    
 
-- **Clonar un repositorio existente** 
+- **Clonar un repositorio existente**
+  
+ Para obtener una copia de un repositorio Git existente, un proyecto en el que te gustaría contribuir, el comando que necesitas es
 
     ~~~
-   Para obtener una copia de un repositorio Git existente, un proyecto en el que te gustaría contribuir, el comando que necesitas es 
-  $ git clone
+    git clone
     ~~~
     
     ![clonar](images/clonargit.jpg)
     
     ![carpeta](images/carpetaClonada.jpg)
 
-**Guardar Cambios en Repositorios**
+**Comprobando el estado de tus archivos**
 
+Para determinar qué archivos están y en qué estado, utilizaremos el comando git status. Si ejecutas este comando justo después de clonar un  repositorio, deberías ver algo así.
 
-_______
+   ![estado]()
+    
+Si añadimos un nuevo archivo al proyecto, y ejecutamos git status, se veran los archivos sin seguimiento asi.
+
+   ![estado](images/estadoDoc.png)
+
+**Seguimiento de nuevos archivos**
+
+Para empezar el seguimiento de un nuevo archivo se usa el comando git add. Iniciaremos el seguimiento de los archivos ejecutando esto:
+
+~~~
+git add
+~~~
+
+**Confirmando tus cambios**
 
 - **Ramificaciones en Git** 
     1. 
