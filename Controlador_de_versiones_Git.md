@@ -110,7 +110,7 @@ Puedes obtener un proyecto de Git de dos maneras. La Primera toma un proyecto o 
 
 Para determinar qué archivos están y en qué estado, utilizaremos el comando git status. Si ejecutas este comando justo después de clonar un  repositorio, deberías ver algo así.
 
-   ![estado]()
+   ![estado](images/status.png)
     
 Si añadimos un nuevo archivo al proyecto, y ejecutamos git status, se veran los archivos sin seguimiento asi.
 
@@ -140,7 +140,31 @@ git commit -m "mensaje sobre los cambios  realizados"
 ~~~
 
    ![commit](images/commit.png)
+   
+**Envio de cambios**
 
-- **Ramificaciones en Git** 
-    1. 
+   ![push](images/pushejemplo.png)
 
+##### **Ramificaciones en Git** 
+
+**¿Que es una Rama?**
+
+Para entender realmente cómo ramifica Git, previamente hemos de examinar la forma en que almacena sus datos.  Git no los almacena de forma  incremental (guardando solo diferencias), sino que los almacena como una serie de instantáneas (copias puntuales de los archivos completos, tal y como se encuentran en ese momento).
+
+En cada confirmación de cambios (commit), Git almacena un punto de control que conserva: un apuntador a la copia puntual de los contenidos preparados (staged), unos metadatos con el autor y el mensaje explicativo, y uno o varios apuntadores a las confirmaciones (commit) que sean padres directos de esta (un padre en los casos de confirmación normal, y múltiples padres en los casos de estar confirmando una fusión (merge) de dos o mas ramas).
+
+**Creacion de Ramas**
+
+   ![creacion](images/creaciondeRamas.png)
+   
+   ![mostrar](images/mostrarRamas.jpg)
+   
+**Cambio entre de Ramas**
+
+**Creacion de Ramas**
+
+**Actualizar y Fusionar**
+
+**Creacion de Ramas**
+
+**Revertir commit**
