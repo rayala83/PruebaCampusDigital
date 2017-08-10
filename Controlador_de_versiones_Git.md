@@ -130,7 +130,7 @@ Si vuelvemos a ejecutar el comando git status, veremos que los archivos están a
 
    ![add](images/comprobarAdd.png)
 
-si queires agregar a seguimiento varios documentos debes agreagrle (git add *) un asterissco a tu comando.
+si queires agregar a seguimiento varios documentos debes escribir este comando `git add * ` y deberia verse de esta forma.
 
    ![add](images/aderirVarios.png)
 
