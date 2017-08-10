@@ -140,6 +140,10 @@ git commit -m "mensaje sobre los cambios  realizados"
 ~~~
 
    ![commit](images/commit.png)
+   
+**Envio de cambios**
+
+   ![push](images/pushejemplo.png)
 
 ##### **Ramificaciones en Git** 
 
@@ -149,3 +153,18 @@ Para entender realmente cómo ramifica Git, previamente hemos de examinar la for
 
 En cada confirmación de cambios (commit), Git almacena un punto de control que conserva: un apuntador a la copia puntual de los contenidos preparados (staged), unos metadatos con el autor y el mensaje explicativo, y uno o varios apuntadores a las confirmaciones (commit) que sean padres directos de esta (un padre en los casos de confirmación normal, y múltiples padres en los casos de estar confirmando una fusión (merge) de dos o mas ramas).
 
+**Creacion de Ramas**
+
+   ![creacion](images/creaciondeRamas.png)
+   
+   ![mostrar](images/mostrarRamas.jpg)
+   
+**Cambio entre de Ramas**
+
+**Creacion de Ramas**
+
+**Actualizar y Fusionar**
+
+**Creacion de Ramas**
+
+**Revertir commit**
