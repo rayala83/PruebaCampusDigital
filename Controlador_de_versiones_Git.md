@@ -130,6 +130,11 @@ Si vuelvemos a ejecutar el comando git status, veremos que los archivos están a
 
    ![add](images/comprobarAdd.png)
 
+si queires agregar a seguimiento varios documentos debes agreagrle (git add *) un asterissco a tu comando.
+
+   ![add](images/aderirVarios.png)
+
+
 
 **Confirmando tus cambios**
 
@@ -159,12 +164,14 @@ En cada confirmación de cambios (commit), Git almacena un punto de control que 
    
    ![mostrar](images/mostrarRamas.jpg)
    
-**Cambio entre de Ramas**
+**Cambio entre  Ramas**
 
-**Creacion de Ramas**
+   ![cambios](images/cambioRamas.png)
 
 **Actualizar y Fusionar**
 
-**Creacion de Ramas**
+   ![pull](images/pull.png)
+   
+   ![merge](images/merge.png)
 
 **Revertir commit**
