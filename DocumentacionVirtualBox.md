@@ -54,6 +54,8 @@ Una vez que ya dimos click sobre nueva esta nos permite crear una maquina virual
    - Asistente de creacion del disco  
    
    ![tipo](images/tipoDiscoVbox.png)
+   
+   - Asistente de creacion del disco  
    ![memoria](images/reservaMemoria.png)
    ![ubicacion](images/ubicacionVbox.png)
    
