@@ -32,3 +32,33 @@ Se debe generar las siguientes carpetas, de las cuales utilizaremos Oracle VM Vi
 
 Utilizaremos el sistema operativo [ubuntu-12.04.5-desktop-i386.iso](http://releases.ubuntu.com/12.04/) el cual descargaremos como imagen para poder incluirlo en virtualBox.
 
+**Instalacion de ubuntu en VirtualBox**
+
+Una vez instalado virualBox vamos a dar click en el icono Oracle VM VirtualBox el cual nos muestra el primer inicio en el cual aun no se a cargado ningun sistema operativo para lo cual debemos ahora dar click sobre nueva para comenzar con la instalacion
+   ![inicio](images/inicioVBox.png)
+
+Una vez que ya dimos click sobre nueva esta nos permite crear una maquina virual nueva que alojara nuestro sistema operativo, pero para comenzar primero la debemos configurar. 
+
+   - Nombre del sistema operativo  
+   Lo primero es darle un nombre y tipo de sistema operativo el cual queremos utilizar en nuestra maquna virtual a crear. 
+   ![instalacion](images/CreaNuevaVBox.png)
+   
+   - Tamaño de la memoria  
+   Se debe asiganar la memoria que utilizara nuestro sistema operativo en la maquina virtual esta sera quitada del sistema anfitrion cuando el de la maquina virtual este en uso.   
+   ![memoria](images/memoriaVbox.png)
+   
+   - Tamaño del disco virtual  
+   Se debe seleccionar la opcion de crear un disco virtual y el tamñao ya viene dado por defecto, mas adelante en la configuracion se puede cambiar el tamaño.     
+   ![tamaño](images/DiscoVBox.png)
+   
+   - Asistente de creacion del disco  
+   
+   ![tipo](images/tipoDiscoVbox.png)
+   ![memoria](images/reservaMemoria.png)
+   ![ubicacion](images/ubicacionVbox.png)
+   
+   - Maquina virtual  
+   Como se ve en la siguiente imagen ya esta completa la creacion de nuestra nueva maquina virtual, ahora solo queda montar la imagen de el sistema operativo que utilizaremos.
+   ![creada](images/iniciarVBox.png)
+   
+
