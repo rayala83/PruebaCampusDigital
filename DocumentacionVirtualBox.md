@@ -7,9 +7,9 @@ ________
 ~~~ 
 1. Acerca de VirtualBox
 ~~~
-
-descripcion
-
+<center>
+Oracle VM VirtualBox es un software de virtualización para arquitecturas x86/amd64, creado originalmente por la empresa alemana innotek GmbH. Actualmente es desarrollado por Oracle Corporation como parte de su familia de productos de virtualización. Por medio de esta aplicación es posible instalar sistemas operativos adicionales, conocidos como «sistemas invitados», dentro de otro sistema operativo «anfitrión», cada uno con su propio ambiente virtual.
+</center>
 ~~~
 2. Instalacion de VIrtualBox
 ~~~
@@ -54,8 +54,12 @@ Una vez que ya dimos clic sobre nueva esta nos permite crear una maquina virual 
    - Asistente de creacion del disco  
    
    ![tipo](images/tipoDiscoVbox.png)
+   
+   - Asistente de creacion del disco  
         
    ![memoria](images/reservaMemoria.png)
+   
+   - Asistente de creacion del disco  
    
    ![ubicacion](images/ubicacionVbox.png)
    
