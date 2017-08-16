@@ -7,9 +7,7 @@ ________
 ~~~ 
 1. Acerca de VirtualBox
 ~~~
-<center>
 Oracle VM VirtualBox es un software de virtualización para arquitecturas x86/amd64, creado originalmente por la empresa alemana innotek GmbH. Actualmente es desarrollado por Oracle Corporation como parte de su familia de productos de virtualización. Por medio de esta aplicación es posible instalar sistemas operativos adicionales, conocidos como «sistemas invitados», dentro de otro sistema operativo «anfitrión», cada uno con su propio ambiente virtual.
-</center>
 
 ~~~
 2. Instalacion de VIrtualBox
@@ -28,7 +26,7 @@ Se debe generar las siguientes carpetas, de las cuales utilizaremos Oracle VM Vi
    ![vBox](images/carpetavBox.png)
    
 ~~~
-2. Configurar VirtualBox para incluir un sistema operativo virtual 
+3. Configurar VirtualBox para incluir un sistema operativo virtual 
 ~~~
 
 Utilizaremos el sistema operativo [ubuntu-12.04.5-desktop-i386.iso](http://releases.ubuntu.com/12.04/) el cual descargaremos como imagen para poder incluirlo en virtualBox.
